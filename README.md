@@ -3,7 +3,6 @@ Following instruction from the course will use node 19. This node version caused
 ```
 "node": "^14.17.0"
 ```
-----Original README----
 # React: Software Architecture
 This is the repository for the LinkedIn Learning course React: Software Architecture. The full course is available from [LinkedIn Learning][lil-course-url].
 
