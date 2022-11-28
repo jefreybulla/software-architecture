@@ -1,18 +1,19 @@
 import express from 'express'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
+import { Home } from './src/pages/Home'
 
 const app = express()
 
 app.get('/*',(req, res) => {
   const reactApp = renderToString(
-    <h1>Hello Jef. I come from the server side!</h1>
+    < Home />
   )
 
   return res.send(`
     <html>
       <body>
-        <div id="root">${reactApp}</div>
+        <div id="root">${reactApp} </div>
       </body>
     </html>
   `)
