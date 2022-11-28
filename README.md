@@ -1,3 +1,5 @@
+This is a fork of a React course [materials](https://github.com/LinkedInLearning/react-software-architecture-2884265). See branch `02_02b_jef` for app files.
+
 # React: Software Architecture
 This is the repository for the LinkedIn Learning course React: Software Architecture. The full course is available from [LinkedIn Learning][lil-course-url].
 
